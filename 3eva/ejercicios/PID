@@ -1,0 +1,8 @@
+cree un script que muestre la informacion de los PID de los proceso del sistema estructurado de la siguiente forma
+ppid....pids, padre....hijos.
+
+ejemplo
+0:1,2
+2:3,4,5,6.....
+1:....
+7 123456:

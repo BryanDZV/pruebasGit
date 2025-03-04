@@ -1,0 +1,68 @@
+ps
+
+top
+
+kill,killall
+
+hacer que un ps no muera 
+nohup 
+ps -e -o pid,ppid, cmd mirar padres
+
+segundos planos
+slee 1000 &
+jobs proceso en sugendo plano
+llevarlo a primer plano
+fg numero fg 2
+
+llevarlo a 2 plano
+ctl +z detenido
+reactivar
+bg 3
+
+no bloque terminal o bloquear segun lo traigas a primer plano o no
+xed second &
+
+
+variables se comparten entre scripts?
+
+no 
+
+sobre export/***
+
+con export se puede compartir con export 
+no se peude modificar variables desde los hijos a padres
+y tampoco pasar varaibales desde hijos a padres
+
+en funciones la variabels se reutilizan
+
+si quiero privaatizarla al ambioto funcion uso local
+
+*////asat aqui export 
+
+/**** sobre source
+
+source
+hace que las variables desde los hijos se asocien al padre y asi modificar o crear los valores de las variables en el padre
+
+/*****asta aqui source
+
+/****free
+
+free
+
+sobre la memoria
+
+
+
+****///
+
+
+
+
+
+
+
+
+
+
+

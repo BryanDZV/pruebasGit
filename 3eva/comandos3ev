@@ -1,0 +1,100 @@
+sudo su covertirme en root sin saber la contraseña del root solo con la mia
+/////
+porque contamina el sistema root si crear un archivo con root el es elpropiertario luego si cambias a otroususuario no tendras permismos 
+solucion cambiar propiertario
+////
+funcionamiento del usuario root y sudo 
+///
+chown
+chgrp
+////
+
+ls -ld
+//
+camibar propietario y grupo a archivos dentro de un directio sin cambiar la carpeta padre
+///
+sudo pide por defecto la contraseña del ususario conectado
+///
+sudo quien lo puede ejecutar como camibar eso 
+/////
+root tiene su contraseña sistema que no te lo da pero peudes cambiar la contraseña root con paswd
+/////
+sudoers
+tiene la configuraciond de sudo nunca se debe edit con otros editores solo con visudo
+cosas basicas
+sintaxis 
+sintaxis 
+usuario 1cualquier maquiena (3como este usuario)2cualquier comando
+%sudo MIRALO
+/////
+porque el ussuario puede usar sudo
+debe pertener al grupo sudo o ad/sudoers.d 
+///
+camibar configuracion de grupos e iniciar con otro ussuuario
+hacer que ususarios no puedan ejecutar sudo
+
+/////////////
+
+crear archivos desde un usuario con el id de otro usuario siendoe ste el otro ususairo practicar
+haciendo esto peudo crear archivos con propietarios otros sin necesidad de ambiar despues con chown
+////
+con este en visudo
+%sudo rpacticar solo ejecutar ls propietarios....
+ejecutar especificos comandos...
+///
+
+su cambar de ususuario
+requiere la contraseña del usuario al q te quieres convertir
+el comando sudo
+requiere la contraseña del usuario q estas conectado
+con sudoeres en quien te peudes convertir y para hacer que 
+
+////////////////////////////
+
+aprender a crea usaurios pero antes haces docker
+
+
+////
+
+****************************************************************************************************************
+INSTALACIONES
+instalacion por repositirios OSN MAS SOFTWATRE QUE PEUDE SINTALAR en etu linux
+instalar de un reposotior esta cifrada la conexion esta verifica si es comàtible con mi sistema e inteta actualizar o te dice si deja de funcionar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

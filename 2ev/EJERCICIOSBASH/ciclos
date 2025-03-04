@@ -1,0 +1,56 @@
+-no hay evaluaciond de condiciones 
+-la salida es 1 o 0 si e 1=error si es 0=correcto
+-comando test se puede sustituir por corchetes [ lo que sea ] 
+
+if [ 44 -le 4 ];then
+efcho adios
+
+pasando parametros en LINEA DE COMANDOS
+
+los parametros se escogen posicionalmente
+echo $1
+echo $9
+
+echo $# numero de parametros
+echo $* todos parametros
+echo $@ todos paramentros en bucles un poco diferente 
+
+NUMEROS MAGICOS
+
+18 ,5...
+MEJRO CREAR VARIABLES Y GUARDARLAS AI
+mayoria_edad=18
+
+
+
+evitar anidamientso innecesarios
+
+
+
+EJERCICIOS
+
+
+CREA UN SCRIPT QUE RECIBA DOS NUMEROS ENTEROS Y DEVUELVA SI UNO ES DIVISBLE ENTRE OTRO 
+
+TODAS LAS OPCIONES
+NO VALE
+UN NUMERO COSAS NO ENTERAS MAS DE DOS NUMEROS
+
+CREA UN SCRIPT QUE RECIBA UNA CADENA DE CARACTERES Y DEVUELVA SI ES UN PALINDROMO O NO
+
+
+
+
+
+
+hacer LA TABAL DE MULTIPLICA DE UN NUMERO POR EJEMPLO 8 HASTA EL 10 SINO SE LE PASA PARAMETROS SINO HASTA EL NUMERO QUE LE PASES COMO PARAMETRO
+
+
+
+
+
+
+
+
+
+

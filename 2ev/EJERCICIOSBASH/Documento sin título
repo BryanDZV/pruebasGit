@@ -1,0 +1,11 @@
+CUAL ES EL IDENTIFICADOR DE USUARIO MAYOR USANDO EN EL SISTEMA
+CUAL ES EL NOMBRE DE USUARIO ASOCIADO AL IDENTIFICADOR
+CUANTOS USUSARIOS TIENE EL USUARIO MAS NUMEROSO
+
+
+Nombre de usuario más largo:
+ 
+cat /etc/passwd | cut -f1 -d: | xargs -Iuser bash -c 'echo -n user: ; echo -n user | wc -c' | sort -n -k2 -t: | tail -1 | cut -f1 -d:
+
+
+cat users | cut -f1 -d: | xargs -Iuser bash -c 'echo -n user: ; echo -n user | wc -c' | grep ":$(cat users | cut -f1 -d: | xargs -Iuser bash -c 'echo -n user: ; echo -n user | wc -c' | sort -n -k2 -t: | tail -1 | cut -f2 -d:)$" | cut -f1 -d:

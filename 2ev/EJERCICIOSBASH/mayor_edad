@@ -1,0 +1,12 @@
+#!/bin/bash
+
+edades=$@
+mayoria_edad=18
+
+function check_natural {
+number=$1
+echo $number | grep -xvE "[0-9]+" > /dev/null
+}
+edades =$(echo $edades | tr '''\n')
+lineas=$#
+
